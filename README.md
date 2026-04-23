@@ -1,20 +1,7 @@
 # ecommerce-sales-analysis
 SQL-based analysis of e-commerce data to extract business insights
 ## Top 5 Most Ordered Products
-
-```md
-### SQL Query
-```sql
-SELECT 
-    p.product_name,
-    COUNT(od.quantity) AS total_orders
-FROM products p
-JOIN order_details od 
-    ON p.product_id = od.product_id
-GROUP BY p.product_name
-ORDER BY total_orders DESC
-LIMIT 5;
-
+ 
 ![Top 5 Products](top_5_products.png)
 
 ## Total Revenue from Delivered Orders

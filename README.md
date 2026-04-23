@@ -10,6 +10,9 @@ SQL-based analysis of e-commerce data to extract business insights
 
 ## Order Status Analysis
 
+This analysis shows the distribution of order statuses.  
+We can observe that most orders are successfully delivered, while a portion gets cancelled, indicating potential areas for improvement in order fulfillment.
+
 ![Order Status](order_status_analysis.png)
 
 ## Revenue by Product Category

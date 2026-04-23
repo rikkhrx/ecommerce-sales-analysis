@@ -27,4 +27,42 @@ Electronics contributes the highest revenue, indicating strong demand in this ca
 This analysis calculates the percentage of cancelled orders.  
 A high cancellation rate (45%) indicates potential issues in order processing, delivery, or customer satisfaction.
 
-![Cancellation Rate](cancel_rate_analysis.png)
+![Cancellation Rate](cancel_rate_analysis.png) 
+
+## Database Schema (EER Diagram)
+
+![EER Diagram](eer_diagram.png)
+
+This diagram represents the structure of the e-commerce database and relationships between tables:
+
+### Tables Overview:
+
+- **customers**
+  - customer_id (Primary Key)
+  - name
+  - city
+
+- **orders**
+  - order_id (Primary Key)
+  - customer_id (Foreign Key)
+  - order_date
+  - order_status
+
+- **order_details**
+  - order_detail_id (Primary Key)
+  - order_id (Foreign Key)
+  - product_id (Foreign Key)
+  - quantity
+
+- **products**
+  - product_id (Primary Key)
+  - product_name
+  - category
+  - price
+
+### Relationships:
+
+- One **customer** can have multiple **orders**
+- One **order** can have multiple **order_details**
+- One **product** can appear in multiple **order_details**
+

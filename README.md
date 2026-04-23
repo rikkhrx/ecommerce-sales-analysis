@@ -2,12 +2,6 @@
 SQL-based analysis of e-commerce data to extract business insights
 ## Top 5 Most Ordered Products
 
-
----
-
-## 💻 Example (copy paste kar)
-
-### 🔹 Top 5 Products section ke niche:
 ```md
 ### SQL Query
 ```sql

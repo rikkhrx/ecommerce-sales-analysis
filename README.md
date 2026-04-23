@@ -21,3 +21,10 @@ This analysis shows which product categories generate the most revenue.
 Electronics contributes the highest revenue, indicating strong demand in this category.
 
 ![Category Revenue](category_revenue_analysis.png)
+
+## Order Cancellation Rate
+
+This analysis calculates the percentage of cancelled orders.  
+A high cancellation rate (45%) indicates potential issues in order processing, delivery, or customer satisfaction.
+
+![Cancellation Rate](cancel_rate_analysis.png)

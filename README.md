@@ -11,3 +11,10 @@ SQL-based analysis of e-commerce data to extract business insights
 ## Order Status Analysis
 
 ![Order Status](order_status_analysis.png)
+
+## Revenue by Product Category
+
+This analysis shows which product categories generate the most revenue.  
+Electronics contributes the highest revenue, indicating strong demand in this category.
+
+![Category Revenue](category_revenue_analysis.png)

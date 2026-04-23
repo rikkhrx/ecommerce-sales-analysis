@@ -7,3 +7,7 @@ SQL-based analysis of e-commerce data to extract business insights
 ## Total Revenue from Delivered Orders
 
 ![Total Revenue](delivered_orders_revenue.png)
+
+## Order Status Analysis
+
+![Order Status](order_status_analysis.png)
